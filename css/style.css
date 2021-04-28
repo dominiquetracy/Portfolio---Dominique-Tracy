@@ -214,6 +214,8 @@ header {
 
 
 
+
+
 /* SVG */
 #svg {
   color: #d49d42;
@@ -316,7 +318,6 @@ section .card img {
   padding: 5px 10px;
   color: #dadada;
   background: #343436;
-  cursor: pointer;
   transition: linear 0.5s;
 }
 .skills-row li:hover {
@@ -630,9 +631,9 @@ section .card img {
   .section-title , .skills-row ul  {
     width: 100%;
   }
-  .header-col-3 {
+  /* .header-col-3 {
     display: none;
-  }
+  } */
   section .card {
     margin-bottom: 15px;
   }
