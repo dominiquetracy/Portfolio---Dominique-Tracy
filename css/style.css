@@ -167,10 +167,7 @@ header {
 }
 .header-row {
   margin-top: 100px !important;
-  /* position: absolute;
-  transform: translate(-50%,-50%);
-  top: 50%;
-  left: 50%; */
+
 }
 .header-col-1 h1 {
   font-weight: 900;
@@ -190,7 +187,9 @@ header {
   margin-top: 25px;
   margin-bottom: 15px;
 }
-
+.headshot img {
+  width: 900px !important;
+}
 .header-col-3 h6 {
   text-transform: uppercase;
   color: #d49d42;
@@ -631,9 +630,9 @@ section .card img {
   .section-title , .skills-row ul  {
     width: 100%;
   }
-  /* .header-col-3 {
+  .header-col-3 {
     display: none;
-  } */
+  }
   section .card {
     margin-bottom: 15px;
   }
