@@ -23,9 +23,6 @@ font-family: 'Open Sans', sans-serif;
 #body p {
   margin-bottom: 0px;
 }
-#body a:hover {
-  text-decoration: underline;
-}
 #body ul li {
   list-style: none;
 }
@@ -91,7 +88,7 @@ font-family: 'Open Sans', sans-serif;
   background-color: transparent;
   color: #d49d42;
   border: 2px solid #d49d42;
-  padding: 10px 32px;
+  padding: 10px 22px;
   text-transform: uppercase;
   font-weight: bolder;
   transition: 0.5s linear;
@@ -140,7 +137,7 @@ nav {
 #navbarNav > ul > li {
   margin: auto 10px;
   font-weight: bold;
-  transition: linear 0.1s;
+  transition: linear 0.5s;
 }
 #navbarNav > ul > li:hover {
   color: #d49d42;
@@ -508,7 +505,9 @@ section .card img {
 }
 .contact-list li:hover {
   color: #E8E8E8;
+  text-decoration: none;
 }
+
 .contact-list .far , .contact-list .fas , .contact-list .fab {
   color: #E8E8E8;
   font-size: 23px;
