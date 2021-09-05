@@ -175,7 +175,13 @@ header {
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 14.5px;
+}
+#body .header-links .github:hover {
+  text-decoration: underline;
+}
+#body .header-links .linkedin:hover {
+  text-decoration: underline;
 }
 .header-hr {
   width: 60px;
@@ -187,7 +193,14 @@ header {
 .headshot img {
   width: 900px !important;
 }
-.header-col-3 h6 {
+#body .portfolio-github a {
+  text-decoration: underline;
+}
+#body .portfolio-github a:hover {
+  color: rgb(212, 157, 66);
+  transition: 1s;
+}
+.header-col-3 h6, .header-col-1 h6 {
   text-transform: uppercase;
   color: #d49d42;
   font-weight: bold;
@@ -198,6 +211,10 @@ header {
   color: #d49d42;
   font-weight: bold;
   font-size: 15px;
+}
+#body .header-view:hover {
+  transition: 1s;
+  text-decoration: underline;
 }
 .header-view img {
   width: 15px;
@@ -276,7 +293,7 @@ section .card img {
   padding: 5px 5px;
   color: #d49d42;
   background: #343436;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: linear 0.5s;
   font-weight: 600;
 }
